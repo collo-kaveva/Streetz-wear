@@ -1,0 +1,13 @@
+
+> dev
+> vite dev
+
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+Port 8080 is in use, trying another one...
+
+  VITE v8.1.0  ready in 2512 ms
+
+  ➜  Local:   http://localhost:8081/
+  ➜  Network: http://10.80.167.164:8081/
+  ➜  Network: http://172.18.0.1:8081/
+  ➜  press h + enter to show help

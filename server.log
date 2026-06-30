@@ -1,0 +1,113 @@
+
+> dev
+> vite dev --port 3333
+
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+
+  VITE v8.1.0  ready in 4405 ms
+
+  ➜  Local:   http://localhost:3333/
+  ➜  Network: http://10.80.167.164:3333/
+  ➜  Network: http://172.18.0.1:3333/
+  ➜  press h + enter to show help
+10:58:55 AM [vite] (ssr) connected.
+[@tanstack/router-devtools] This package has moved to @tanstack/react-router-devtools. Please switch to the new package at your earliest convenience, as this package will be dropped in the next major version release.
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+11:18:01 AM [vite] (ssr) page reload src/routeTree.gen.ts
+11:18:01 AM [vite] (ssr) program reload
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29558:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29725:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:25531:3)
+11:18:32 AM [vite] (ssr) page reload src/routes/brands.tsx
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29558:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29725:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:25531:3)
+11:18:32 AM [vite] (ssr) page reload src/routes/index.tsx
+11:18:32 AM [vite] (ssr) page reload src/components/navigation.tsx
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29558:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29725:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:25531:3)
+11:18:33 AM [vite] (ssr) page reload src/routes/shop.tsx
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29558:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29725:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:25531:3)
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29558:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29725:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:25531:3)
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29558:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29725:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:25531:3)
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29558:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:29725:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///home/veva/Documents/streetwear/node_modules/vite/dist/node/chunks/node.js:25531:3)
+11:19:42 AM [vite] (ssr) page reload src/routes/index.tsx
+11:19:44 AM [vite] (ssr) page reload src/components/navigation.tsx
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+Error: Error transforming route file /home/veva/Documents/streetwear/src/routes/cart.tsx: SyntaxError: Identifier 'Route' has already been declared. (88:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/order-goods.tsx: SyntaxError: Identifier 'Route' has already been declared. (196:13),Error transforming route file /home/veva/Documents/streetwear/src/routes/wishlist.tsx: SyntaxError: Identifier 'Route' has already been declared. (48:13)
+    at file:///home/veva/Documents/streetwear/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+11:19:44 AM [vite] (ssr) page reload src/routes/brands.tsx
+11:19:44 AM [vite] (ssr) page reload src/routes/shop.tsx
+11:19:44 AM [vite] (ssr) page reload src/routes/index.tsx
+11:38:22 AM [vite] (ssr) page reload src/routes/index.tsx
