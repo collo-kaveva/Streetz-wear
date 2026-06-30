@@ -22,7 +22,10 @@ Tailwind CSS
 React Router
 Framer Motion
 JavaScript (ES6+)
+
+
 Project Structure
+
 src/
 ├── assets/          # Images, icons, and static assets
 ├── components/      # Reusable UI components
@@ -34,23 +37,38 @@ src/
 ├── routes/          # Route configuration
 ├── utils/           # Helper functions
 └── App.jsx
+
+
 Installation
+
 Clone the repository:
+
 git clone <repository-url>
+
 Navigate to the project folder:
+
 cd project-name
+
 Install dependencies:
+
 npm install
+
 Start the development server:
+
 npm run dev
+
 Open your browser and visit:
+
 http://localhost:5173
+
 Build for Production
+
 npm run build
 
 Preview the production build:
 
 npm run preview
+
 Future Improvements
 Backend integration
 User authentication
